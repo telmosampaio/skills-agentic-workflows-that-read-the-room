@@ -14,6 +14,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -29,8 +30,9 @@ safe-outputs:
 # Update Mona's GitHub Info website
 
 Read `notes/mona-notes.md` and `site/content/github-info.md` first.
-Fetch the GitHub Blog at https://github.blog/latest/ and the GitHub Changelog
-at https://github.blog/changelog/.
+Fetch the GitHub Blog at https://github.blog/latest/, the GitHub Changelog
+at https://github.blog/changelog/, and Awesome Copilot workflows at
+https://awesome-copilot.github.com/.
 
 Update `site/content/github-info.md` with relevant, concise, practical
 information that helps developers learn GitHub. Include links to the original
